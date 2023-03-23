@@ -52,16 +52,13 @@ p {
 .rodape-fundo {
     background-color: #ffffff;
     padding: 20px;
-    border-radius: 60px;   
+    margin-bottom: 20px;  
 }
 
 .centralizar-img {   
     top: 0%;
     float: left;
-   
-   
-}
-
+ }
 
 li:hover { 
     background-color: #E9FCEE;
