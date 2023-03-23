@@ -4,13 +4,14 @@
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'verdana', sans-serif;
     text-align: justify; 
     background-color: #E9FCEE;
     background-size: 100%;
     position: relative;
     max-width: 600px;
     margin: 0 auto;
+    line-height: 25px;
 }
 
 p {
@@ -25,9 +26,11 @@ p {
 
 .cabecalho-fundo {
     background-color: #BBCDC0;
-    margin-bottom: 5px;
-    padding: 10px;
-      
+    margin-bottom: 10px;
+    padding: 2%;
+    margin-top: 10px;
+    line-height: 150%;
+
 }
 
 .cabecalho-meio {
@@ -41,10 +44,19 @@ p {
     
 }
 
+#skills {
+    text-align: center;
+}
+
 .publicacoes-fundo {
     background-color: #B1CCB8;
     padding: 20px;
 }
+
+#publicacoes {
+    text-align: center;
+}
+
 
 .menu-fundo {
     background-color: #B8D1BE;
@@ -54,7 +66,7 @@ p {
 .rodape-fundo {
     background-color: #ffffff;
     padding: 20px;
-    margin-bottom: 20px;  
+    margin-bottom: 10px;  
 }
 
 .centralizar-img {   
@@ -62,6 +74,6 @@ p {
     float: left;
  }
 
-li:hover { 
+a:hover { 
     background-color: #E9FCEE;
 }
