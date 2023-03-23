@@ -1,0 +1,53 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify; 
+    background-color: #E9FCEE;
+    background-size: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    margin: auto;
+    height: 100%;
+    width: 100%; 
+}
+
+p {
+    text-indent: 1em;    
+}
+
+.retira-decoracao-link {
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho-fundo {
+    background-color: #BBCDC0;   
+}
+
+.cabecalho-meio {
+    background-color: #AFC9B6;
+}
+
+.corpo-fundo {
+    background-color: #A9C7B1;
+    
+    
+}
+
+.publicacoes-fundo {
+    background-color: #B1CCB8;
+}
+
+
+.rodape-fundo {
+    background-color: #B8D1BE;   
+}
+
+.centralizar-img {   
+    position: absolute;
+    top: 11%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
