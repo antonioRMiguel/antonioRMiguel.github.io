@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Ubuntu', sans-serif;
     text-align: justify; 
@@ -9,6 +10,8 @@ body {
     background-size: 100%;
     position: absolute;
     max-width: 600px;
+    height: 100vh;
+    gap: 20px;
 }
 
 p {
@@ -42,7 +45,6 @@ p {
     background-color: #B1CCB8;
     padding: 20px;
 }
-
 
 .menu-fundo {
     background-color: #B8D1BE;
