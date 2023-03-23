@@ -17,9 +17,17 @@ body {
     font-family: 'Ubuntu', sans-serif;
     text-align: justify; 
     background-color: #E9FCEE;
-    margin: 0%;
-    width: 60%;
-    background: url("fundo-pagina-portfolio.png") no-repeat center fixed;
+    background-size: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: absolute;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+
+    
 }
 
 p {
@@ -33,29 +41,39 @@ p {
 
 .cabecalho-fundo {
     background-color: #BBCDC0;
-    margin-block: 0px;
+   
 }
 
 .cabecalho-meio {
     background-color: #AFC9B6;
-    margin-block: 0px;
 }
 
 .corpo-fundo {
     background-color: #A9C7B1;
-    margin-block: 0px;
+    
     
 }
 
 .publicacoes-fundo {
     background-color: #B1CCB8;
-    margin-block: 0px;
 }
 
 
 .rodape-fundo {
     background-color: #B8D1BE;
-    margin-block: 0px;
+    
+}
+
+.centralizar-img {   
+    mwidth: 80%;
+    position: absolute;
+    top: 11%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+
+    
+    
+
 }
 
 </style>
@@ -64,7 +82,7 @@ p {
 <body>
 
 <div class="cabecalho-fundo">
-    <id="foto">
+    <img class="centralizar-img" src="foto-perfil.png" alt="foto de antonio miguel"></img>
 <h1><strong><p id="dadosPessoais"> Antônio Rodrigues Miguel </p></strong></h1> 
     <p><strong>Idade:</strong> 35 anos</p>
    <p><strong> Nacionalidade:</strong> Brasileira </p>
@@ -103,7 +121,6 @@ p {
     <h2><p id="menu">Menu</p></h2>
     <ul>
     <li> <p> <a href="https://www.linkedin.com/in/antoniormiguel/" target="_blank" class="retira-decoracao-link">Linkedin </a></li>
-    <li> <p> <a href="#foto" class="retira-decoracao-link">Minha foto</p></a></li>
     <li> <p> <a href="#dadosPessoais" class="retira-decoracao-link">Dados Pessoais</p></a></li>
     <li> <p> <a href="#skills" class="retira-decoracao-link"> Habilidades </p></a></li>
     <li> <p> <a href="#publicacoes" class="retira-decoracao-link">Publicações </p></a></li>
