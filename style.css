@@ -6,7 +6,7 @@
 body {
     font-family: 'verdana', sans-serif;
     text-align: justify; 
-    background-color: #E9FCEE;
+    background-color: #c8f5cf;
     background-size: 100%;
     position: relative;
     max-width: 600px;
@@ -61,10 +61,11 @@ p {
 .menu-fundo {
     background-color: #B8D1BE;
     padding: 20px;   
+    text-align: right;
 }
 
 .rodape-fundo {
-    background-color: #ffffff;
+    background-color: #9eb3a3;
     padding: 20px;
     margin-bottom: 10px;  
 }
@@ -72,7 +73,8 @@ p {
 .centralizar-img {   
     top: 0%;
     float: left;
- }
+}
+
 
 a:hover { 
     background-color: #E9FCEE;
