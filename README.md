@@ -1,4 +1,4 @@
 # Portfólio
-Portfólio que será criado via html - maio/2023
+Portfólio criado com html, css e JS!
 
 
