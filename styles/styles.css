@@ -170,12 +170,19 @@ section {
   z-index: -1;
   clip-path: polygon(0 0, 46% 0, 79% 100%, 0% 100%);
 }
+
+#foto-perfil {
+  /* border-radius: 5%;
+  border: solid 1px #4d2732; */
+  transform: scaleX(-1);
+}
+
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
   height: 60%;
   width: 70%;
   margin-left: 6rem;
-  background-color: var(--color-black);
+  background-color: rgba(0, 0, 0, 0.075);
   transition: all 0.4s ease-in-out;
 }
 .header-content .left-header .image img {
