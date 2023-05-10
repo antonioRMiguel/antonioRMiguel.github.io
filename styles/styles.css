@@ -179,11 +179,12 @@ section {
 
 .header-content .left-header .image {
   border-radius: var(--br-sm-2);
-  height: 60%;
-  width: 70%;
-  margin-left: 6rem;
+  height: 40%;
+  width: 40%;
+  margin-left: 34rem;
   background-color: rgba(0, 0, 0, 0.075);
   transition: all 0.4s ease-in-out;
+  padding: 0px;
 }
 .header-content .left-header .image img {
   width: 100%;
